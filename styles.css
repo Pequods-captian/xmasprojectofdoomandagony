@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(#FF0000 0%, forestgreen 100%);
+    background: darkred;
     min-height: 100vh;
     padding: 20px;
     line-height: 1.6;
@@ -42,7 +42,7 @@ header h1 {
 }
 
 .card {
-    background: forestgreen;
+    background: darkgreen;
     border-radius: 12px;
     padding: 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
@@ -65,20 +65,20 @@ header h1 {
 }
 
 .card h3 {
-    color: #333;
+    color: white;
     font-size: 1.5rem;
     margin-bottom: 10px;
 }
 
 .card p {
-    color: #666;
+    color: white;
     margin-bottom: 20px;
     line-height: 1.6;
    
 }
 
 .card button {
-    background: linear-gradient(135deg, forestgreen 0%, #FF0000 100%);
+    background: deeppink ;
     color: white;
     border: none;
     padding: 12px 24px;
@@ -173,7 +173,7 @@ footer {
     padding: 5px 10px;
     display: block;
     border-radius: 2px;
-    background-color:forestgreen;
+    background-color: darkgreen;
     color: white;
 }
 
@@ -182,7 +182,7 @@ footer {
     display: flex;
     justify-content: space-between; 
     align-items: center;
-    background-color: #ff0000;
+    background-color: darkred;
 }
 
 .logo {
@@ -194,7 +194,7 @@ footer {
 .santa {
     align-content: center;
     background-color: #FF0000;
-    color:forestgreen;
+    color: salmon;
     margin: 10px 10px;
 
 }
@@ -213,7 +213,7 @@ footer {
     object-position:center;
 }
 button {
-    background: greenyellow ;
+    background: darkred ;
     color: white;
     border: none;
     padding: 12px 24px;
@@ -222,4 +222,22 @@ button {
     cursor: pointer;
     transition: all 0.3s ease;
     width: 100%; 
+}
+h1 {
+    color: white;
+}
+p {
+    color: white;
+}
+a {
+    color: white;
+}
+.yellowking h1{
+color: yellow;
+}
+.yellowking p{
+    color: yellow;
+}
+.yellowking a{
+color: yellow;
 }
